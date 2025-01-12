@@ -1,0 +1,13 @@
+/* bugSolution.css */
+
+/* General style for all paragraphs */
+p {
+  color: blue; 
+}
+
+/* More specific style for a specific paragraph, maintaining correct order */
+#myParagraph {
+  font-weight: bold;
+}
+
+/* Avoid inline styles if possible; instead use classes or IDs and manage specificity */
